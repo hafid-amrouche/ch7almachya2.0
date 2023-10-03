@@ -4,7 +4,7 @@
 *.pyc
 __pycache__
 db.sqlite3
-deuxieme_main/settings.py
+ch7almachya/settings.py
 media/*
 media/users/*
 !media/brands_flags/
