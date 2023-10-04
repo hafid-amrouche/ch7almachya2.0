@@ -19,6 +19,7 @@ var ajax_url = link_1
 
 var page = 1
 var loading = document.getElementById('loading-animations')
+var products_count = 0
 
 function search(){
     loading.style.display = 'block'
@@ -54,7 +55,7 @@ function createProducts(data){
     
     data = data[0]
     var searchContainer = document.getElementById('products-container')
-    var products_count = data.length
+    products_count = data.length
     if ( products_count ) {
         if (LC != 'ar'){                        
                 var div  = document.createElement('div')
