@@ -475,10 +475,10 @@ def delete_image(request, product_id, image_id):
 def create_item_OK(request):
   if request.user.id == 1:
     file_content = {"data" : []}
-    file = open(os.path.join(BASE_DIR, 'websrape_ouedkniss-master/cars.json'))
+    file = open(os.path.join(BASE_DIR, 'cars.json'))
     file_data = json.load(file)
     data = file_data['data']
-    with open(os.path.join(BASE_DIR, 'websrape_ouedkniss-master/cars.json') , 'w') as file:
+    with open(os.path.join(BASE_DIR, 'cars.json') , 'w') as file:
       for car_info in data :
         try :
             link = list(car_info)[0]
@@ -694,7 +694,7 @@ def create_item_OK(request):
             pass
           pass
 
-    with open(os.path.join(BASE_DIR, 'websrape_ouedkniss-master/cars.json') , 'w') as f:
+    with open(os.path.join(BASE_DIR, 'cars.json') , 'w') as f:
       json.dump(file_content, f)
     
   return HttpResponse('')

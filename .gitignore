@@ -9,12 +9,11 @@ media/*
 media/users/*
 !media/brands_flags/
 !media/countries_flags/
-websrape_ouedkniss-master/*
+websrape_ouedkniss-master/
 
 # Backup files # 
 *.bak 
 
-!websrape_ouedkniss-master/cars.json
 
 # If you are using PyCharm # 
 # User-specific stuff
