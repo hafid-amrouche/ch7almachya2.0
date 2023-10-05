@@ -9,7 +9,8 @@ media/*
 media/users/*
 !media/brands_flags/
 !media/countries_flags/
-
+websrape_ouedkniss-master/*
+!websrape_ouedkniss-master/cars.json
 # Backup files # 
 *.bak 
 
