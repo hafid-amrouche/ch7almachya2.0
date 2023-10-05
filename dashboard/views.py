@@ -480,7 +480,7 @@ def create_item_OK(request):
     data = file_data['data']
     with open(os.path.join(BASE_DIR, 'cars.json') , 'w') as file:
       for car_info in data :
-        try :
+        # try :
             link = list(car_info)[0]
             if Product.objects.filter(oxid = link):
               raise
@@ -685,14 +685,13 @@ def create_item_OK(request):
                   search_word.times += 1
                   search_word.save()
           
-        except:
-          raise
-          try : 
-            product.delete()
-            file_content['data'] = file_content['data'].append(car_info)
-          except:
-            pass
-          pass
+        # except:
+        #   try : 
+        #     product.delete()
+        #     file_content['data'] = file_content['data'].append(car_info)
+        #   except:
+        #     pass
+        #   pass
 
     with open(os.path.join(BASE_DIR, 'cars.json') , 'w') as f:
       json.dump(file_content, f)
