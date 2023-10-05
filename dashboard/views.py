@@ -483,7 +483,7 @@ def create_item_OK(request):
         # try :
             link = list(car_info)[0]
             if Product.objects.filter(oxid = link):
-              raise
+              continue
             ann = car_info[link]
             
             product = Product()
