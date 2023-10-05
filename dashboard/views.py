@@ -686,6 +686,7 @@ def create_item_OK(request):
                   search_word.save()
           
         except:
+          raise
           try : 
             product.delete()
             file_content['data'] = file_content['data'].append(car_info)
