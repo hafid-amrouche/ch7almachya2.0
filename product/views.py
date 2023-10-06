@@ -108,7 +108,7 @@ def product_ajax(request):
         'images' : product.images_list.split(','),
         'likes_count' : product.likes_count,
         'dislikes_count' : product.dislikes_count,
-        'phone_number' : json.loads(product.phone_number),
+        'phone_number' : json.loads(product.phone_numbers),
         'brand' :  product.other_category.capitalize() or product.category.name.capitalize(),
         'model' : product.name.capitalize(),
         'year' : product.year,
