@@ -654,7 +654,7 @@ def create_item_OK(request):
             if phone_number :
               product.phone_number = json.dumps(phone_number)
             else:
-              phone_number = ""
+              phone_number = "[]"
 
             dirs = [
                       os.path.join(BASE_DIR, f"media/users/{ 1 }/products/{ product.id }/images"),
