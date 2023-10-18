@@ -22,9 +22,10 @@ def toNormalForm(text):
 
 @login_required(login_url = 'login')
 def your_items(request):
-  
+  cond = request.user.products.all().count() > 50
   context = {
-    'title' : gettext("Your items")
+    'title' : gettext("Your items"),
+    'is_over_50_post' : cond
   }
   return render(request, 'dashboard/your_items.html', context)
 
@@ -98,6 +99,10 @@ def check_name(name):
 
 @login_required(login_url = 'login')
 def create_item(request): 
+  cond = request.user.products.all().count() > 50
+  if cond :
+    return redirect('home')
+  print(request.POST)
   allStates = State.objects.all().order_by('code')
   allColors = Color.objects.all()
   allDocuments = Document.objects.all()
@@ -272,9 +277,6 @@ def create_item(request):
     }
   
   return render(request, 'dashboard/create_item.html', context)
-
-
-
 
 @login_required(login_url = 'login')
 def edit_item(request, product_id):

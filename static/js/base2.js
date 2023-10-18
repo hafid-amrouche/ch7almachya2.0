@@ -5,8 +5,25 @@ $('document').ready(function(){
             success: function(data){
                 data = JSON.parse(data);
                 if (data){
-                    document.getElementById('notificationsCountHtml').innerHTML = data[0]
-                    document.getElementById('messagesCountHtml').innerHTML  = data[1]
+                    if (data[0] != 0){
+                        
+                        document.getElementById('notificationsCountHtml').className = 'btn btn-success rounded-circle'
+                        document.getElementById('notificationsCountHtml').innerHTML = data[0]
+                        
+                    }else{
+                        document.getElementById('notificationsCountHtml').innerHTML = ""
+                        document.getElementById('notificationsCountHtml').className = ''
+                    }
+                    if (data[1] != 0){
+                        document.getElementById('messagesCountHtml').className = 'btn btn-success rounded-circle'
+                        document.getElementById('messagesCountHtml').innerHTML  = data[1]
+                        
+                    }else{
+                        document.getElementById('messagesCountHtml').innerHTML  = ""
+                        document.getElementById('messagesCountHtml').className = ''
+                    }
+                    
+
                     var count = Number(data[0]) + Number(data[1])
                     if (count > 99){
                         count = '+99'

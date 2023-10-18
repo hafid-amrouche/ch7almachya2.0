@@ -239,11 +239,16 @@ function toggle_div(id){
 
         state_box.innerHTML = data['state']
         city_box.innerHTML = data['city']
-        if (data['phone_number'].length > 0){
-         for ( number of data['phone_number']){
+        var j = 0
+        for ( number of data['phone_number']){
+          if (number){
             phone_box.innerHTML = phone_box.innerHTML + `<button class="btn btn-success m-2" onclick='window.location.href="tel:${ number }"'><img src="https://img.icons8.com/fluency-systems-regular/50/ffffff/phone-disconnected.png" style="width:24px"; />  ${ number }</button>`
+          }else{
+            j = j + 1
           }
-        }else{
+        }
+        
+        if ( j === 3){
           document.getElementById('phone-number_container').style.display = 'none'
         }
         

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-09-28 13:58+0100\n"
+"POT-Creation-Date: 2023-10-18 00:30+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,103 +19,60 @@ msgstr ""
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
 "&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
 
-#: .\dashboard\views.py:27 .\templates\base.html:104 .\templates\base.html:168
-msgid "Your items"
-msgstr "منشوراتك المعروضة"
-
-#: .\dashboard\views.py:63 .\templates\base.html:106 .\templates\base.html:170
-msgid "Saved posts"
-msgstr "منشورات محفوظة"
-
-#: .\dashboard\views.py:142 .\dashboard\views.py:369
-msgid "Problem with registring the brand"
-msgstr "مشكلة في تسجيل العلامة التجارية"
-
-#: .\dashboard\views.py:216 .\templates\dashboard\create_item.html:190
-#: .\templates\dashboard\create_item.html:406
-#: .\templates\dashboard\edit_item.html:200
-#: .\templates\dashboard\edit_item.html:474
-msgid "Your post must have at least 1 photo"
-msgstr "يجب أن يحتوي منشورك على صورة واحدة على الأقل"
-
-#: .\dashboard\views.py:248
-msgid "Your item was created succesfully"
-msgstr "تم نشر منشورك بنجاح"
-
-#: .\dashboard\views.py:254
-msgid "Your item was Not created"
-msgstr "لم يتم نشر منشورك"
-
-#: .\dashboard\views.py:268 .\templates\base.html:105 .\templates\base.html:169
-msgid "Create item"
-msgstr "اضافة منشور"
-
-#: .\dashboard\views.py:419
-msgid "Your item was updated succesfully"
-msgstr "تم تحديث منشورك بنجاح"
-
-#: .\dashboard\views.py:424
-msgid "Your item was not updated"
-msgstr "لم يتم تحديث منشورك"
-
-#: .\dashboard\views.py:435
-msgid "Edit item"
-msgstr "تغيير منشور"
-
-#: .\deuxieme_main\views.py:48
+#: .\ch7almachya\views.py:48
 msgid "Latest"
 msgstr "الأحدث"
 
-#: .\deuxieme_main\views.py:164
+#: .\ch7almachya\views.py:164
 msgid "Welcome to your profile. Please remember your username \"{}\""
 msgstr "مرحبًا بك في ملفك الشخصي. الرجاء تذكر اسم المستخدم \"{}\""
 
-#: .\deuxieme_main\views.py:172
+#: .\ch7almachya\views.py:172
 msgid "Something went wrong, please try to register again"
 msgstr "حدث خطأ ما ، يرجى محاولة التسجيل مرة أخرى"
 
-#: .\deuxieme_main\views.py:180 .\templates\base.html:71 .\templates\log
+#: .\ch7almachya\views.py:180 .\templates\base.html:71 .\templates\log
 #: in.html:33 .\templates\register.html:26 .\templates\register.html:234
 msgid "Register"
 msgstr "انشاء حساب"
 
-#: .\deuxieme_main\views.py:181
+#: .\ch7almachya\views.py:181
 msgid "Register with us at ch7al machya and start selling vehicles"
 msgstr "سجل معنا على شحال ماشيا و ابدا في بيع السيارات"
 
-#: .\deuxieme_main\views.py:191 .\templates\base.html:67 .\templates\log
+#: .\ch7almachya\views.py:191 .\templates\base.html:67 .\templates\log
 #: in.html:11 in.html:28 .\templates\register.html:239
 #: .\templates\settings\forgot_password.html:19
 #: .\templates\settings\forgot_password.html:35
 msgid "Login"
 msgstr "تسجيل الدخول"
 
-#: .\deuxieme_main\views.py:192
+#: .\ch7almachya\views.py:192
 msgid "Login to your account at Ch7al machya"
 msgstr "سجل دخولك لحسابك على شحال ماشيا"
 
-#: .\deuxieme_main\views.py:208
+#: .\ch7almachya\views.py:208
 msgid "You are logged in."
 msgstr "لقد سجلت الدخول."
 
-#: .\deuxieme_main\views.py:211
+#: .\ch7almachya\views.py:211
 msgid "Login Failed"
 msgstr "فشل تسجيل الدخول"
 
-#: .\deuxieme_main\views.py:224
+#: .\ch7almachya\views.py:224
 msgid "You are logged out."
 msgstr ".لقد قمت بتسجيل الخروج"
 
-#: .\deuxieme_main\views.py:1442
+#: .\ch7almachya\views.py:1442
 msgid "Your message was sent successfully"
 msgstr "تم ارسال رسالتك بنجاح"
 
-#: .\deuxieme_main\views.py:1448 .\templates\base.html:156
-#: .\templates\base.html:220
+#: .\ch7almachya\views.py:1448 .\templates\base.html:159
+#: .\templates\base.html:225
 msgid "Contact Us"
 msgstr "تواصل معنا"
 
-#: .\deuxieme_main\views.py:1449
+#: .\ch7almachya\views.py:1449
 msgid ""
 "Contact our team at Ch7al machya for any information we will reply to you in "
 "less than a day"
@@ -123,9 +80,56 @@ msgstr ""
 "اتصل بفريقنا في شعال ماشيا للحصول على أي معلومات سنقوم بالرد عليك في أقل من "
 "يوم"
 
-#: .\deuxieme_main\views.py:1533
+#: .\ch7almachya\views.py:1533
 msgid "Notification"
 msgstr "إشعار"
+
+#: .\dashboard\views.py:27
+msgid "You added 50 articles, for now that is the maximum number of artciles per user"
+msgstr "لقد أضفت أكثر من 50 منشور، وهذا هو الحد الأقصى لعدد المنشورات لكل مستخدم حاليًا"
+
+#: .\dashboard\views.py:29 .\templates\base.html:104 .\templates\base.html:171
+msgid "Your items"
+msgstr "منشوراتك المعروضة"
+
+#: .\dashboard\views.py:66 .\templates\base.html:109 .\templates\base.html:175
+msgid "Saved posts"
+msgstr "منشورات محفوظة"
+
+#: .\dashboard\views.py:150 .\dashboard\views.py:375
+msgid "Problem with registring the brand"
+msgstr "مشكلة في تسجيل العلامة التجارية"
+
+#: .\dashboard\views.py:224 .\templates\dashboard\create_item.html:202
+#: .\templates\dashboard\create_item.html:430
+#: .\templates\dashboard\edit_item.html:212
+#: .\templates\dashboard\edit_item.html:498
+msgid "Your post must have at least 1 photo"
+msgstr "يجب أن يحتوي منشورك على صورة واحدة على الأقل"
+
+#: .\dashboard\views.py:256
+msgid "Your item was created succesfully"
+msgstr "تم نشر منشورك بنجاح"
+
+#: .\dashboard\views.py:262
+msgid "Your item was Not created"
+msgstr "لم يتم نشر منشورك"
+
+#: .\dashboard\views.py:276 .\templates\base.html:106 .\templates\base.html:173
+msgid "Create item"
+msgstr "اضافة منشور"
+
+#: .\dashboard\views.py:425
+msgid "Your item was updated succesfully"
+msgstr "تم تحديث منشورك بنجاح"
+
+#: .\dashboard\views.py:430
+msgid "Your item was not updated"
+msgstr "لم يتم تحديث منشورك"
+
+#: .\dashboard\views.py:450
+msgid "Edit item"
+msgstr "تغيير منشور"
 
 #: .\funtions.py:19 .\user\templatetags\user_templates.py:35
 msgid " s"
@@ -216,7 +220,7 @@ msgstr "تم التحقق من بريدك الإلكتروني"
 msgid "Invalid link"
 msgstr "رابط تفعيل خاطئ"
 
-#: .\settings\views.py:219 .\templates\base.html:115 .\templates\base.html:179
+#: .\settings\views.py:219 .\templates\base.html:118 .\templates\base.html:184
 msgid "Change password"
 msgstr "تغيير كلمة المرور"
 
@@ -290,11 +294,11 @@ msgstr ""
 msgid "Ch7al machya | Sell & Buy cars"
 msgstr "شحال ماشيا | أشري و بيع طوموبيلات"
 
-#: .\templates\base.html:96 .\templates\base.html:160
+#: .\templates\base.html:96 .\templates\base.html:163
 msgid "My Account"
 msgstr "حسابي"
 
-#: .\templates\base.html:99 .\templates\base.html:162
+#: .\templates\base.html:99 .\templates\base.html:165
 msgid "Dashboard"
 msgstr "لوحة التحكم"
 
@@ -302,58 +306,58 @@ msgstr "لوحة التحكم"
 msgid "Notifications"
 msgstr "الاشعارات"
 
-#: .\templates\base.html:110 .\templates\base.html:173
+#: .\templates\base.html:113 .\templates\base.html:178
 msgid "Settings"
 msgstr "اعدادات"
 
-#: .\templates\base.html:113 .\templates\base.html:177
+#: .\templates\base.html:116 .\templates\base.html:182
 #: .\templates\settings\profile.html:51 .\templates\settings\profile.html:121
 msgid "Profile"
 msgstr "الملف الشخصي"
 
-#: .\templates\base.html:114 .\templates\base.html:178
+#: .\templates\base.html:117 .\templates\base.html:183
 msgid "Manage email"
 msgstr "إدارة البريد الإلكتروني"
 
-#: .\templates\base.html:116 .\templates\base.html:180
+#: .\templates\base.html:119 .\templates\base.html:185
 #: .\templates\settings\delete_account.html:17
 #: .\templates\settings\delete_account.html:32
 msgid "Delete account"
 msgstr "حذف الحساب"
 
-#: .\templates\base.html:120 .\templates\base.html:184
+#: .\templates\base.html:123 .\templates\base.html:189
 msgid "Language"
 msgstr "اللغة"
 
-#: .\templates\base.html:136
+#: .\templates\base.html:139
 msgid "CARS"
 msgstr ""
 
-#: .\templates\base.html:155 .\templates\base.html:219
+#: .\templates\base.html:158 .\templates\base.html:224
 msgid "Useful Links"
 msgstr "روابط اضافية"
 
-#: .\templates\base.html:228
+#: .\templates\base.html:233
 msgid "Logout"
 msgstr "تسجيل الخروج"
 
-#: .\templates\base.html:256 .\templates\base.html:284
+#: .\templates\base.html:261 .\templates\base.html:289
 msgid "Search"
 msgstr "بحث"
 
-#: .\templates\base.html:322
+#: .\templates\base.html:327
 msgid "0 selected"
 msgstr "0 اختيار"
 
-#: .\templates\base.html:323
+#: .\templates\base.html:328
 msgid "selected"
 msgstr "اختيارات"
 
-#: .\templates\base.html:324
+#: .\templates\base.html:329
 msgid "All selected"
 msgstr "الكل مختار"
 
-#: .\templates\base.html:325
+#: .\templates\base.html:330
 msgid " Select all"
 msgstr "اختر الكل "
 
@@ -386,10 +390,10 @@ msgstr "فلترة"
 msgid "States"
 msgstr "ولايات"
 
-#: .\templates\category.html:130 .\templates\dashboard\create_item.html:41
-#: .\templates\dashboard\create_item.html:255
-#: .\templates\dashboard\edit_item.html:47
-#: .\templates\dashboard\edit_item.html:319 .\templates\product\product.html:96
+#: .\templates\category.html:130 .\templates\dashboard\create_item.html:53
+#: .\templates\dashboard\create_item.html:279
+#: .\templates\dashboard\edit_item.html:59
+#: .\templates\dashboard\edit_item.html:343 .\templates\product\product.html:96
 #: .\templates\product\product.html:200 .\templates\search.html:135
 msgid "Brand"
 msgstr "العلامة"
@@ -450,10 +454,10 @@ msgstr "خيارات السيارة"
 msgid "All options only"
 msgstr "كاملة الخيارات فقط؟"
 
-#: .\templates\category.html:212 .\templates\dashboard\create_item.html:130
-#: .\templates\dashboard\create_item.html:342
-#: .\templates\dashboard\edit_item.html:141
-#: .\templates\dashboard\edit_item.html:414
+#: .\templates\category.html:212 .\templates\dashboard\create_item.html:142
+#: .\templates\dashboard\create_item.html:366
+#: .\templates\dashboard\edit_item.html:153
+#: .\templates\dashboard\edit_item.html:438
 #: .\templates\product\product.html:143 .\templates\product\product.html:256
 #: .\templates\search.html:217
 msgid "Fuel"
@@ -471,25 +475,25 @@ msgstr "فقط التبادل"
 msgid "Minimum rating"
 msgstr "أقل تقييم"
 
-#: .\templates\category.html:243 .\templates\dashboard\create_item.html:115
-#: .\templates\dashboard\create_item.html:327
-#: .\templates\dashboard\edit_item.html:121
-#: .\templates\dashboard\edit_item.html:394 .\templates\search.html:248
+#: .\templates\category.html:243 .\templates\dashboard\create_item.html:127
+#: .\templates\dashboard\create_item.html:351
+#: .\templates\dashboard\edit_item.html:133
+#: .\templates\dashboard\edit_item.html:418 .\templates\search.html:248
 msgid "Car condition"
 msgstr "حالة السيارة"
 
-#: .\templates\category.html:247 .\templates\dashboard\create_item.html:118
-#: .\templates\dashboard\create_item.html:330
-#: .\templates\dashboard\edit_item.html:125
-#: .\templates\dashboard\edit_item.html:128
-#: .\templates\dashboard\edit_item.html:401
+#: .\templates\category.html:247 .\templates\dashboard\create_item.html:130
+#: .\templates\dashboard\create_item.html:354
+#: .\templates\dashboard\edit_item.html:137
+#: .\templates\dashboard\edit_item.html:140
+#: .\templates\dashboard\edit_item.html:425
 #: .\templates\product\product.html:403 .\templates\search.html:252
 msgid "Used"
 msgstr "مستعمل"
 
-#: .\templates\category.html:253 .\templates\dashboard\create_item.html:119
-#: .\templates\dashboard\edit_item.html:126
-#: .\templates\dashboard\edit_item.html:129
+#: .\templates\category.html:253 .\templates\dashboard\create_item.html:131
+#: .\templates\dashboard\edit_item.html:138
+#: .\templates\dashboard\edit_item.html:141
 #: .\templates\product\product.html:404 .\templates\search.html:258
 msgid "New"
 msgstr "جديدة"
@@ -510,7 +514,7 @@ msgid "Offered price: "
 msgstr "شحال عطاولو"
 
 #: .\templates\category.html:463 .\templates\dashboard\saved_posts.html:109
-#: .\templates\dashboard\your_items.html:112 .\templates\home.html:95
+#: .\templates\dashboard\your_items.html:120 .\templates\home.html:95
 #: .\templates\product\product.html:415 .\templates\search.html:592
 #: .\templates\user\profile.html:175
 msgid "Price is unavailable"
@@ -521,9 +525,9 @@ msgstr "الثمن غير موجود"
 msgid "All options"
 msgstr "كاملة الخيارات"
 
-#: .\templates\category.html:465 .\templates\dashboard\create_item.html:331
-#: .\templates\dashboard\edit_item.html:399
-#: .\templates\dashboard\edit_item.html:402
+#: .\templates\category.html:465 .\templates\dashboard\create_item.html:355
+#: .\templates\dashboard\edit_item.html:423
+#: .\templates\dashboard\edit_item.html:426
 #: .\templates\product\product.html:417 .\templates\search.html:594
 msgid "Store"
 msgstr "متجر"
@@ -571,16 +575,16 @@ msgid "to activate it"
 msgstr "لتنشيطه"
 
 #: .\templates\dashboard\create_item.html:17
-#: .\templates\dashboard\create_item.html:231
+#: .\templates\dashboard\create_item.html:243
 #: .\templates\dashboard\edit_item.html:18
-#: .\templates\dashboard\edit_item.html:289
+#: .\templates\dashboard\edit_item.html:301
 msgid "Item information"
 msgstr "معلومات عن المنتج"
 
 #: .\templates\dashboard\create_item.html:20
-#: .\templates\dashboard\create_item.html:234
+#: .\templates\dashboard\create_item.html:246
 #: .\templates\dashboard\edit_item.html:27
-#: .\templates\dashboard\edit_item.html:298
+#: .\templates\dashboard\edit_item.html:310
 #: .\templates\product\product.html:271 .\templates\register.html:108
 #: .\templates\register.html:207 .\templates\settings\profile.html:81
 #: .\templates\settings\profile.html:153
@@ -588,149 +592,161 @@ msgid "State"
 msgstr "ولاية"
 
 #: .\templates\dashboard\create_item.html:28
-#: .\templates\dashboard\create_item.html:242
+#: .\templates\dashboard\create_item.html:254
 #: .\templates\dashboard\edit_item.html:35
-#: .\templates\dashboard\edit_item.html:306
+#: .\templates\dashboard\edit_item.html:318
 #: .\templates\product\product.html:275 .\templates\settings\profile.html:91
 #: .\templates\settings\profile.html:163
 msgid "City"
 msgstr "مدينة"
 
+#: .\templates\dashboard\create_item.html:30
+#: .\templates\dashboard\create_item.html:36
+#: .\templates\dashboard\create_item.html:42
+#: .\templates\dashboard\create_item.html:48
+#: .\templates\dashboard\create_item.html:109
+#: .\templates\dashboard\create_item.html:185
+#: .\templates\dashboard\create_item.html:256
+#: .\templates\dashboard\create_item.html:262
+#: .\templates\dashboard\create_item.html:268
+#: .\templates\dashboard\create_item.html:274
+#: .\templates\dashboard\create_item.html:334
+#: .\templates\dashboard\create_item.html:413
+msgid "You can keep this field empty"
+msgstr "يمكنك ترك هذه الخانة فارغًة"
+
 #: .\templates\dashboard\create_item.html:34
-#: .\templates\dashboard\create_item.html:248
+#: .\templates\dashboard\create_item.html:40
+#: .\templates\dashboard\create_item.html:46
 #: .\templates\dashboard\edit_item.html:41
-#: .\templates\dashboard\edit_item.html:312
-#: .\templates\product\product.html:174 .\templates\product\product.html:291
+#: .\templates\dashboard\edit_item.html:47
+#: .\templates\dashboard\edit_item.html:53 .\templates\product\product.html:174
+#: .\templates\product\product.html:291
 msgid "Phone number"
 msgstr " رقم الهاتف"
 
-#: .\templates\dashboard\create_item.html:54
-#: .\templates\dashboard\create_item.html:268
-#: .\templates\dashboard\edit_item.html:61
-#: .\templates\dashboard\edit_item.html:332
+#: .\templates\dashboard\create_item.html:66
+#: .\templates\dashboard\create_item.html:292
+#: .\templates\dashboard\edit_item.html:73
+#: .\templates\dashboard\edit_item.html:356
 msgid "Brand name"
 msgstr "اسم العلامة"
 
-#: .\templates\dashboard\create_item.html:58
-#: .\templates\dashboard\edit_item.html:65 .\templates\product\product.html:101
+#: .\templates\dashboard\create_item.html:70
+#: .\templates\dashboard\edit_item.html:77 .\templates\product\product.html:101
 #: .\templates\product\product.html:205
 msgid "Model"
 msgstr "اسم السيارة"
 
-#: .\templates\dashboard\create_item.html:60
+#: .\templates\dashboard\create_item.html:72
 msgid "example : symbol"
 msgstr ""
 
-#: .\templates\dashboard\create_item.html:65
-#: .\templates\dashboard\create_item.html:278
-#: .\templates\dashboard\edit_item.html:72
-#: .\templates\dashboard\edit_item.html:343
+#: .\templates\dashboard\create_item.html:77
+#: .\templates\dashboard\create_item.html:302
+#: .\templates\dashboard\edit_item.html:84
+#: .\templates\dashboard\edit_item.html:367
 #: .\templates\product\product.html:105 .\templates\product\product.html:209
 msgid "Year"
 msgstr "السنة"
 
-#: .\templates\dashboard\create_item.html:75
-#: .\templates\dashboard\create_item.html:288
-#: .\templates\dashboard\edit_item.html:82
-#: .\templates\dashboard\edit_item.html:353
+#: .\templates\dashboard\create_item.html:87
+#: .\templates\dashboard\create_item.html:312
+#: .\templates\dashboard\edit_item.html:94
+#: .\templates\dashboard\edit_item.html:377
 #: .\templates\product\product.html:109 .\templates\product\product.html:214
 msgid "Color"
 msgstr "اللون"
 
-#: .\templates\dashboard\create_item.html:85
-#: .\templates\dashboard\create_item.html:298
-#: .\templates\dashboard\edit_item.html:92
-#: .\templates\dashboard\edit_item.html:363
+#: .\templates\dashboard\create_item.html:97
+#: .\templates\dashboard\create_item.html:322
+#: .\templates\dashboard\edit_item.html:104
+#: .\templates\dashboard\edit_item.html:387
 msgid "Document"
 msgstr "الوثائق"
 
-#: .\templates\dashboard\create_item.html:95
-#: .\templates\dashboard\create_item.html:308
-#: .\templates\dashboard\edit_item.html:102
-#: .\templates\dashboard\edit_item.html:373
+#: .\templates\dashboard\create_item.html:107
+#: .\templates\dashboard\create_item.html:332
+#: .\templates\dashboard\edit_item.html:114
+#: .\templates\dashboard\edit_item.html:397
 #: .\templates\product\product.html:118 .\templates\product\product.html:225
 msgid "Engine"
 msgstr "المحرك"
 
-#: .\templates\dashboard\create_item.html:97
-#: .\templates\dashboard\create_item.html:310
-msgid "You can keep this field empty"
-msgstr "يمكنك ترك هذه الخانة فارغًة"
-
-#: .\templates\dashboard\create_item.html:102
-#: .\templates\dashboard\edit_item.html:109
+#: .\templates\dashboard\create_item.html:114
+#: .\templates\dashboard\edit_item.html:121
 msgid "Price in millions"
 msgstr "الثمن بالمليون سنتيم"
 
-#: .\templates\dashboard\create_item.html:108
-#: .\templates\dashboard\edit_item.html:115
+#: .\templates\dashboard\create_item.html:120
+#: .\templates\dashboard\edit_item.html:127
 msgid "Offered price in millions"
 msgstr "شحال عطاولك بالملون سنتيم"
 
-#: .\templates\dashboard\create_item.html:124
-#: .\templates\dashboard\create_item.html:336
-#: .\templates\dashboard\edit_item.html:135
-#: .\templates\dashboard\edit_item.html:408
+#: .\templates\dashboard\create_item.html:136
+#: .\templates\dashboard\create_item.html:360
+#: .\templates\dashboard\edit_item.html:147
+#: .\templates\dashboard\edit_item.html:432
 msgid "Distance travelled in Kilo Meters"
 msgstr "عداد المسافة بالكيلومتر"
 
-#: .\templates\dashboard\create_item.html:140
-#: .\templates\dashboard\create_item.html:352
-#: .\templates\dashboard\edit_item.html:151
-#: .\templates\dashboard\edit_item.html:424
+#: .\templates\dashboard\create_item.html:152
+#: .\templates\dashboard\create_item.html:376
+#: .\templates\dashboard\edit_item.html:163
+#: .\templates\dashboard\edit_item.html:448
 #: .\templates\product\product.html:147 .\templates\product\product.html:261
 msgid "Gear box"
 msgstr "علبة السرعة"
 
-#: .\templates\dashboard\create_item.html:151
-#: .\templates\dashboard\create_item.html:366
-#: .\templates\dashboard\edit_item.html:162
-#: .\templates\dashboard\edit_item.html:436
+#: .\templates\dashboard\create_item.html:163
+#: .\templates\dashboard\create_item.html:390
+#: .\templates\dashboard\edit_item.html:174
+#: .\templates\dashboard\edit_item.html:460
 msgid "Open for exchange?"
 msgstr "هل تقبل المبادلة؟"
 
-#: .\templates\dashboard\create_item.html:156
-#: .\templates\dashboard\create_item.html:373
-#: .\templates\dashboard\edit_item.html:167
-#: .\templates\dashboard\edit_item.html:442
+#: .\templates\dashboard\create_item.html:168
+#: .\templates\dashboard\create_item.html:397
+#: .\templates\dashboard\edit_item.html:179
+#: .\templates\dashboard\edit_item.html:466
 msgid "All options car ?"
 msgstr "هل السيارة كاملة الخيارات ؟"
 
-#: .\templates\dashboard\create_item.html:160
-#: .\templates\dashboard\edit_item.html:171
+#: .\templates\dashboard\create_item.html:172
+#: .\templates\dashboard\edit_item.html:183
 msgid "If not what are it's options then ?"
 msgstr ""
 
-#: .\templates\dashboard\create_item.html:172
-#: .\templates\dashboard\create_item.html:388
-#: .\templates\dashboard\edit_item.html:183
-#: .\templates\dashboard\edit_item.html:457
+#: .\templates\dashboard\create_item.html:184
+#: .\templates\dashboard\create_item.html:412
+#: .\templates\dashboard\edit_item.html:195
+#: .\templates\dashboard\edit_item.html:481
 #: .\templates\product\product.html:409
 msgid "Description"
 msgstr "صندوق الوصف"
 
-#: .\templates\dashboard\create_item.html:188
-#: .\templates\dashboard\create_item.html:404
-#: .\templates\dashboard\edit_item.html:199
-#: .\templates\dashboard\edit_item.html:473
+#: .\templates\dashboard\create_item.html:200
+#: .\templates\dashboard\create_item.html:428
+#: .\templates\dashboard\edit_item.html:211
+#: .\templates\dashboard\edit_item.html:497
 msgid "Photos"
 msgstr "صور"
 
-#: .\templates\dashboard\create_item.html:195
-#: .\templates\dashboard\create_item.html:411
-#: .\templates\dashboard\edit_item.html:206
-#: .\templates\dashboard\edit_item.html:481
+#: .\templates\dashboard\create_item.html:207
+#: .\templates\dashboard\create_item.html:435
+#: .\templates\dashboard\edit_item.html:218
+#: .\templates\dashboard\edit_item.html:505
 msgid "Click to upload images"
 msgstr "اضغط لتحمل الصور"
 
-#: .\templates\dashboard\create_item.html:196
+#: .\templates\dashboard\create_item.html:208
 msgid "upload up to 20 images"
 msgstr ""
 
-#: .\templates\dashboard\create_item.html:212
-#: .\templates\dashboard\create_item.html:428
-#: .\templates\dashboard\edit_item.html:224
-#: .\templates\dashboard\edit_item.html:500
+#: .\templates\dashboard\create_item.html:224
+#: .\templates\dashboard\create_item.html:452
+#: .\templates\dashboard\edit_item.html:236
+#: .\templates\dashboard\edit_item.html:524
 msgid ""
 "This operation might take some time according to your internet speed. So "
 "please be patient"
@@ -738,52 +754,52 @@ msgstr ""
 "قد تستغرق هذه العملية بعض الوقت وفقًا لسرعة الإنترنت لديك. لذا يرجى التحلي "
 "بالصبر"
 
-#: .\templates\dashboard\create_item.html:215
-#: .\templates\dashboard\create_item.html:431
+#: .\templates\dashboard\create_item.html:227
+#: .\templates\dashboard\create_item.html:455
 msgid "Create"
 msgstr "اضافة "
 
 #: .\templates\dashboard\edit_item.html:21
-#: .\templates\dashboard\edit_item.html:292
+#: .\templates\dashboard\edit_item.html:304
 msgid "Creation date"
 msgstr "تاريخ الاضافة"
 
-#: .\templates\dashboard\edit_item.html:207
+#: .\templates\dashboard\edit_item.html:219
 msgid "upload up to "
 msgstr ""
 
-#: .\templates\dashboard\edit_item.html:207
+#: .\templates\dashboard\edit_item.html:219
 msgid " images"
 msgstr " صور"
 
-#: .\templates\dashboard\edit_item.html:227
-#: .\templates\dashboard\edit_item.html:503
+#: .\templates\dashboard\edit_item.html:239
+#: .\templates\dashboard\edit_item.html:527
 #: .\templates\settings\change_password.html:28
 #: .\templates\settings\change_password.html:57
 msgid "Save"
 msgstr "حفظ"
 
-#: .\templates\dashboard\edit_item.html:269
-#: .\templates\dashboard\edit_item.html:543
+#: .\templates\dashboard\edit_item.html:281
+#: .\templates\dashboard\edit_item.html:567
 msgid "likes"
 msgstr "اعجاب"
 
-#: .\templates\dashboard\edit_item.html:270
-#: .\templates\dashboard\edit_item.html:544
+#: .\templates\dashboard\edit_item.html:282
+#: .\templates\dashboard\edit_item.html:568
 msgid "dislikes"
 msgstr "غير اعجاب"
 
-#: .\templates\dashboard\edit_item.html:271
-#: .\templates\dashboard\edit_item.html:545
+#: .\templates\dashboard\edit_item.html:283
+#: .\templates\dashboard\edit_item.html:569
 msgid "comments"
 msgstr "تعليقات"
 
-#: .\templates\dashboard\edit_item.html:272
-#: .\templates\dashboard\edit_item.html:546
+#: .\templates\dashboard\edit_item.html:284
+#: .\templates\dashboard\edit_item.html:570
 msgid "views"
 msgstr "مشاهدات"
 
-#: .\templates\dashboard\edit_item.html:398
+#: .\templates\dashboard\edit_item.html:422
 msgid "used"
 msgstr "مستعملة"
 
@@ -791,11 +807,17 @@ msgstr "مستعملة"
 msgid "You have not save any post yet"
 msgstr "لم تحفط أي منشور بعد"
 
-#: .\templates\dashboard\your_items.html:150
+#: .\templates\dashboard\your_items.html:24
+msgid ""
+"You added more than 50 articles, for now that is the maximum number of "
+"artciles per user"
+msgstr "لقد أضفت أكثر من 50 منشور، وهذا هو الحد الأقصى لعدد المنشورات لكل مستخدم حاليًا"
+
+#: .\templates\dashboard\your_items.html:158
 msgid "You don't have any products yet"
 msgstr "لا تملك أي منشور بعد"
 
-#: .\templates\dashboard\your_items.html:165
+#: .\templates\dashboard\your_items.html:173
 msgid "Are you sure you want to remove this item"
 msgstr "هل أنت متأكد أنك تريد إزالة هذاالمنتج"
 

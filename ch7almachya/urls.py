@@ -18,6 +18,7 @@ urlpatterns = [
 urlpatterns += i18n_patterns(
     path('admin-room/', admin.site.urls),
     path('', views.home, name='home'), 
+    path('members/', include('members.urls')),
     path('simular-products/', views.simular_products, name='simular-products'),
     path('home-ajax/', views.home_ajax, name='home-ajax'),
     path('get-people/', views.get_people, name='get-people'),

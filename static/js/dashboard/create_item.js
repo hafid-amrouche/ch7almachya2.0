@@ -21,7 +21,7 @@ id_name.style.border = "2px var(--red) solid"
 id_distance.style.border = "2px var(--red) solid"
 document.getElementById('multiple-uploader').style.border = "2px var(--red) solid"
 
-id_distance.value = 99999999
+id_distance.value = 0
 
 
 id_name.addEventListener('input', check_button)

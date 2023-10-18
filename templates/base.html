@@ -12,6 +12,7 @@
 		<link rel="icon" type="image/x-icon" href="{% static '/images/favicon.ico' %}">
 		<meta http-equiv="cache-control" content="max-age=604800" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6526457297514391" crossorigin="anonymous"></script>
 		
 		{% if description %}
 			<meta name="description" content="{{ description }}">
@@ -99,10 +100,13 @@
 								{% trans "Dashboard" %}
 						</a>
 						<div class="collapse show" id="collapseExample">
-							<a href="{% url 'messages-list' %}">&ensp; {% trans "Messages" %} (<span id='messagesCountHtml'></span>)</a>
-							<a href="{% url 'notifications' %}">&ensp; {% trans "Notifications" %} (<span id='notificationsCountHtml'></span>)</a>
+							<a href="{% url 'messages-list' %}">&ensp; {% trans "Messages" %} <span id='messagesCountHtml'>()</span></a>
+							<a href="{% url 'notifications' %}">&ensp; {% trans "Notifications" %} <span id='notificationsCountHtml'>()</span></a>
 							<a href="{% url 'your-items' %}">&ensp; {% trans "Your items" %} </a>
-							<a href="{% url 'create-item' %}">&ensp; {% trans "Create item" %} </a>
+							{% if user.products.all.count <= 50 %}
+								<a href="{% url 'create-item' %}" id="create-item-link">&ensp; {% trans "Create item" %} </a>
+							{% endif %}
+							
 							<a href="{% url 'saved-posts' %}">&ensp; {% trans "Saved posts" %} </a>
 						</div>
 						<a href class="main-anchor"  style="font-weight: bold;" data-bs-toggle="collapse" data-bs-target="#collapseExample2" aria-expanded="true" aria-controls="collapseExample"2>
@@ -163,10 +167,12 @@
 						<img id="dashboard-icon" src="https://img.icons8.com/fluency-systems-filled/50/28A745/dashboard-layout.png" width="30"/>
 					</a>
 					<div class="collapse show" id="collapseExample">
-						<a style="text-align: right;" href="{% url 'messages-list' %}">(<span id='messagesCountHtml'></span>) الرسائل &ensp;</a>
-						<a style="text-align: right;" href="{% url 'notifications' %}">(<span id='notificationsCountHtml'></span>) الاشعارات &ensp;</a>
+						<a style="text-align: right;" href="{% url 'messages-list' %}"><span id='messagesCountHtml'></span> الرسائل &ensp;</a>
+						<a style="text-align: right;" href="{% url 'notifications' %}"><span id='notificationsCountHtml'></span> الاشعارات &ensp;</a>
 						<a style="text-align: right;" href="{% url 'your-items' %}"> {% trans "Your items" %} &ensp;</a>
-						<a style="text-align: right;" href="{% url 'create-item' %}"> {% trans "Create item" %} &ensp;</a>
+						{% if user.products.all.count <= 50 %}
+							<a style="text-align: right;" id="create-item-link" href="{% url 'create-item' %}"> {% trans "Create item" %} &ensp;</a>
+						{% endif %}
 						<a style="text-align: right;" href="{% url 'saved-posts' %}"> {% trans "Saved posts" %} &ensp;</a>
 					</div>
 					<a href class="main-anchor text-right"  style="font-weight: bold;" data-bs-toggle="collapse" data-bs-target="#collapseExample2" aria-expanded="true" aria-controls="collapseExample"2>
